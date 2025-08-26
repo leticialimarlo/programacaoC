@@ -12,14 +12,18 @@ int main() {
     scanf("%f", &altura);
     
     printf("Digite seu nome: \n");
-    scanf("%s", &nome); 
+    scanf("%s", nome); 
 
     printf("Digite sua matricula: \n");
     scanf("%d", &matricula);
-
-    printf("Nome do aluno: %s - Matricula: %d\n", nome, matricula);
-    printf("Idade: %d - Altura: %.2f\n", idade, altura);
+    
+    printf("\n--- Dados do Aluno ---\n");
+    printf("Nome: %s\n", nome);
+    printf("Idade: %d\n", idade);
+    printf("Altura: %.2f\n", altura);
+    printf("Matrícula: %d\n", matricula);
 
     return 0;
 
 }
+
